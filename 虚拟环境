@@ -1,0 +1,35 @@
+# 语法：python -m venv <虚拟环境名称>
+# 创建一个名为manim_venv的虚拟环境
+python -m venv manim_venv
+
+# 激活虚拟环境Windows
+manim_venv\Scripts\activate
+#查看虚拟环境的python版本
+python --version
+或者
+python -V
+
+# macOS/Linux
+source manim_venv/bin/activate
+
+# 退出虚拟环境
+deactivate
+
+# 删除虚拟环境
+# Windows
+rmdir /s manim_venv
+
+# macOS/Linux
+rm -rf manim_venv
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 卸载依赖
+pip uninstall -r requirements.txt
+
+# 查看依赖
+pip freeze
+
+# 导出依赖
+pip freeze > requirements.txt
