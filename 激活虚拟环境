@@ -1,0 +1,24 @@
+虚拟环境可以帮助你隔离项目依赖，避免与系统 Python 环境冲突。
+打开终端（Windows 用户可以使用命令提示符或 PowerShell）。
+创建虚拟环境：
+在终端中，运行以下命令来创建一个虚拟环境。假设你的项目文件夹名为 manim_project：
+bash
+复制
+mkdir manim_project
+cd manim_project
+python -m venv venv
+这将在 manim_project 文件夹中创建一个名为 venv 的虚拟环境。
+激活虚拟环境：
+Windows：
+bash
+复制
+manim -p NO4.py TrigonometricFunctions
+.\venv\Scripts\activate
+manim运行指令：
+在终端中运行以下命令来生成动画：
+bash
+复制
+manim No1.py CalculusIntroduction -p
+-pql 表示以低分辨率（480p）和低质量渲染动画，适合快速预览。
+如果需要更高分辨率，可以使用 -pm（720p）或 -p（1080p）。
+manim -pqh No1.py
