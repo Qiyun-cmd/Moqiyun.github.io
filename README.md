@@ -25,3 +25,5 @@ periodic_table_epic.py:元素周期表动画
 physics_formulas.py:物理学动画经典力学电磁学部分热力学部分量子力学部分 
 
 quantum_odyssey.py:光学
+
+integration_romance.py：积分与浪漫邂逅（所有用到的指令与所需依赖以及安装步骤均以注释形式写入了文件）
